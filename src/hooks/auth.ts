@@ -8,7 +8,7 @@ const Auth = ({ children }) => {
     useEffect(() => {
         const userId = Cookies.get('userId');
         if (!userId) {
-            navigate('/login');
+            navigate('/auth');
         } else {
             navigate('/');
         }

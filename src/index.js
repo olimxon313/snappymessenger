@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import AppRoutes from './Routes';
-<<<<<<< HEAD
-=======
 import './App.css'
 
->>>>>>> 809875afd040da444b968fcb26fcc18b33a12c22
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   

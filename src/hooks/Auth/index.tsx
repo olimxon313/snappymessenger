@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from "react";
 import { BsGithub, BsGoogle } from "react-icons/bs";
 import { motion, AnimatePresence } from "framer-motion";
@@ -15,7 +14,7 @@ const AuthForm = () => {
 
   return (
     <div className="mt-16 sm:mx-auto sm:w-full sm:max-w-md px-6 sm:px-0">
-      <div className="bg-gray-800 px-8 py-10 shadow-2xl rounded-lg">
+      <div className="bg-gray-800 px-8 py-10 shadow-2xl rounded-md">
         <AnimatePresence mode="wait">
           <motion.div
             key={variant}
@@ -85,7 +84,7 @@ const AuthForm = () => {
               </div>
               <button
                 type="submit"
-                className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 {variant === "LOGIN" ? "Sign In" : "Register"}
               </button>
